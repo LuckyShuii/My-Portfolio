@@ -15,6 +15,10 @@ const getData = async () => {
 </script>
 
 <template>
-<button @click="getData">Get Data</button>
+<button @click="getData">Get Dadta</button>
   <div id="data">{{ data }}</div>
+
+<v-btn>
+  Button
+</v-btn>
 </template>
