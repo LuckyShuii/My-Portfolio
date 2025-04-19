@@ -24,6 +24,8 @@ services:
       VITE_PROJECT_STATUS: ${PROJECT_STATUS}
       VITE_FRONTEND_URL: ${FRONTEND_URL}
       VITE_FRONTEND_PORT: ${FRONTEND_PORT}
+      VITE_DEFAULT_LOCALE: ${DEFAULT_LOCALE}
+      VITE_FALLBACK_LOCALE: ${FALLBACK_LOCALE}
     volumes:
       - ./frontend/src:/app/src
     depends_on:
