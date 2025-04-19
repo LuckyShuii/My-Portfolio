@@ -1,33 +1,12 @@
 import { createI18n } from "vue-i18n";
+import pluralization from "./rules/pluralization";
+import frTranslation from "./languages/fr";
+import enTranslation from "./languages/en";
 
-const messages = {
-  en: {
-    nav: {
-      home: "Home",
-      about: "About"
-    },
-    home: {
-      header: "Welcome to the Vue 3 I18n tutorial!",
-      created_by: "This tutorial was brought to you by Lokalise."
-    },
-    about: {
-      header: "About us"
-    }
-  },
-  fr: {
-    nav: {
-      home: "Accueil",
-      about: "À propos"
-    },
-    home: {
-      header: "Bienvenue dans le tutoriel Vue 3 I18n !",
-      created_by: "Ce tutoriel a été réalisé par Lokalise."
-    },
-    about: {
-      header: "À propos de nous"
-    }
-  }
-}
+const translations = {
+    fr: frTranslation,
+    en: enTranslation,
+};
 
 export default createI18n({
     // @local: default language for the app
@@ -38,5 +17,6 @@ export default createI18n({
     legacy: false,
     // @globalInjection: true: use the global injection for i18n, allows to use $t() in the template instead of importing the i18n instance everytime
     globalInjection: true,
-    messages
+    pluralization,
+    messages: translations,
 })
