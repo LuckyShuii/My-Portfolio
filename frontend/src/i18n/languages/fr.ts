@@ -9,7 +9,7 @@ const frTranslation = {
     home: {
         hero: {
             title: "Développeur <br />FullStack",
-            paragraph: "Bienvenue sur mon portfolio ! <br/>Je suis Lucas Boillot, un développeur fullstack passionné.  <br/>Explorez mes projets et découvrez mon expertise en développement web. <br/>Envie de travailler ensemble ? Contactez moi dès maintenant !"
+            paragraph: "Bienvenue sur mon portfolio !<br/> Je suis Lucas Boillot, développeur fullstack diplômé d'un Bac +3 en Conception et Développement d'Applications.<br/> Actuellement à la recherche d'une alternance sur Toulouse ou Paris dans le cadre de mon Master à Epitech (2025-2027).<br/> Découvrez mes projets et contactez-moi dès maintenant pour collaborer ensemble !"
         },
         about: {
             title: "À propos",

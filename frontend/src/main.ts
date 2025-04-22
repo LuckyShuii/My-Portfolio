@@ -4,6 +4,7 @@ import '@fontsource/poppins/400.css'
 import '@fontsource/poppins/500.css'
 import '@fontsource/poppins/600.css'
 import '@fontsource/poppins/700.css'
+import '@mdi/font/css/materialdesignicons.css' 
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -22,6 +23,9 @@ const app = createApp(App)
 const vuetify = createVuetify({
     components,
     directives,
+    icons: {
+        defaultSet: 'mdi', 
+    }
 })
 
 app.use(createPinia())

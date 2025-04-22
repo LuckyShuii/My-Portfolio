@@ -14,7 +14,7 @@ const { t } = useI18n();
                 <p v-html="t('home.hero.paragraph')" class="font-weight-medium mt-5 text-[#4B4B4B]"></p>
                 <a href="#contact"><Button :label="t('nav.contact')" :is-home-data="true" class="mt-[40px] max-[1300px]:mx-auto" :loading="false" :disabled="false" /></a>
             </div>
-            <img src="/src/assets/icons/hero_photo.svg" alt="hero picture of Lucas" class="max-[1300px]:max-w-full" />
+            <img src="/src/assets/icons/hero_photo.svg" alt="hero picture of Lucas" class="ml-4 max-[1300px]:max-w-full" />
         </div>
     </div>
 </template>
