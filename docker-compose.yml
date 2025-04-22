@@ -54,11 +54,13 @@ services:
     container_name: portfolio-db
     environment:
       POSTGRES_DB: ${DB_DATABASE}
-      POSTGRES_PASSWORD: ${DB_PASSWORD_READONLY}
-      POSTGRES_USER: ${DB_USER_READONLY}
+      # POSTGRES_PASSWORD: ${DB_PASSWORD_READONLY}
+      # POSTGRES_USER: ${DB_USER_READONLY}
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres 
     volumes:
-      - ./backend/init-db:/docker-entrypoint-initdb.d
-      - db-data:/var/lib/postgresql/data
+      - ./backend/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+      - ./pgdata:/var/lib/postgresql/data
     expose:
       - 5432
     
@@ -71,6 +73,4 @@ services:
       - "8081:8080"
     environment:
       ADMINER_DEFAULT_SERVER: db
-    
-volumes:
-  db-data:
+  

@@ -2,3 +2,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/src/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+@layer base {
+    html {
+      font-family: theme('fontFamily.sans');
+    }
+}
+
+body {
+    background-color: #1F1F1F;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+    * {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+}

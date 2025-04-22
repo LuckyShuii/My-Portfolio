@@ -10,6 +10,7 @@ class ProjectSchema(BaseSchema):
     uuid: str
     title: str
     description: Optional[str]
+    preview_description: Optional[str]
     tags: Optional[List["TagSchema"]] = Field(default_factory=list)
 
     class Config:

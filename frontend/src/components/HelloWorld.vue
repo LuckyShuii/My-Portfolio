@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import axios from 'axios';
 import { ref } from 'vue';
+import Button from './layout/components/Button.vue';
 
 const data = ref(null);
 
@@ -18,5 +19,5 @@ const getData = async () => {
 <h1>{{ $t("home.header") }}</h1>
 <button @click="getData">Get Data</button>
 <div id="data">{{ data }}</div>
-<v-btn>Button</v-btn>
+<Button label="Button !" @click="getData" :loading="false" :disabled="false" :is-home-data="true" />
 </template>

@@ -4,10 +4,11 @@ const frTranslation = {
         cv: "CV",
         projects: "Projets",
         about: "À propos",
+        contact: "Contact",
     },
     home: {
         hero: {
-            title: "Développeur Full Stack",
+            title: "Développeur <br />FullStack",
             paragraph: "Bienvenue sur mon portfolio ! <br/>Je suis Lucas Boillot, un développeur fullstack passionné.  <br/>Explorez mes projets et découvrez mon expertise en développement web. <br/>Envie de travailler ensemble ? Contactez moi dès maintenant !"
         },
         about: {
