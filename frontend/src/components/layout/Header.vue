@@ -61,10 +61,10 @@ const toggleLanguage = (): void => {
             </ul>
 
             <div class="flex justify-center items-center w-[250px] h-[80px] rounded-[25px] ml-[46px] bg-white">
-                <a class="flex items-center justify-center" href="">
+                <a class="flex items-center justify-center" href="https://github.com/LuckyShuii" target="_blank">
                     <img src="/src/assets/icons/github.svg" alt="GitHub logo" />
                 </a>
-                <a class="flex items-center justify-center" href="">
+                <a class="flex items-center justify-center" href="https://www.linkedin.com/in/lucas-boillot/" target="_blank">
                     <img class="mx-[31px]" src="/src/assets/icons/linkedin.svg" alt="LinkedIn logo" />
                 </a>
 

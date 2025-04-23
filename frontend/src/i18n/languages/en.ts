@@ -18,6 +18,9 @@ const enTranslation = {
         projects: {
             title: "Projects",
             paragraph: "I'm proficient in various technologies including frontend, backend, and ops such as Symfony, TS, Node, Python, VueJS, Docker, Nginx, etc.<br/> Feel free to check my GitHub for more details!<br/> For further information, click to explore the projects page."
+        },
+        skills: {
+            title: "Skills",
         }
     },
     contact: {

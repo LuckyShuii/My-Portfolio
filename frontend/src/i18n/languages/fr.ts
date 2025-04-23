@@ -18,6 +18,9 @@ const frTranslation = {
         projects: {
             title: "Projets",
             paragraph: "Je maitrise des technologies tant front que back et ops, telles que : Symfony, TS, Node, Python, VueJS, Docker, Nginx, etc. <br/>N’hésitez pas à visiter mon GitHub pour en savoir plus ! <br/>Pour plus d’informations ne pas hésiter à cliquer pour atterir sur la page projets "
+        },
+        skills: {
+            title: "Compétences",
         }
     },
     contact: {
